@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Surfacedfox&#39;s Pages</title>
+    <link>https://surfacedfox.github.io/</link>
+    <description>Recent content on Surfacedfox&#39;s Pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © Ashe O&#39;Hawkes, 2022</copyright>
+    <lastBuildDate>Fri, 28 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://surfacedfox.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Let&#39;s talk about mirrors and reflections.</title>
+      <link>https://surfacedfox.github.io/post/mirror-alt/</link>
+      <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://surfacedfox.github.io/post/mirror-alt/</guid>
+      <description>The ol&amp;rsquo; reliable duplicate room on the other side trick for mirrors is criminally underused, and understandably so; However, I feel that innovation related to that trick practically stopped after parallax-corrected cubemaps and screen space reflections caught on. Let&amp;rsquo;s talk about that.
+Parallax-corrected cubemaps are more or less perfect for 90% usecases, imo. They&amp;rsquo;re cheap, and are useful for a lot of stuff, particularly, irregular surfaces. They are pretty cool, but they&amp;rsquo;re static, so you won&amp;rsquo;t see dynamic stuff in reflections at worst, and have to recompute them at runtime for some semblance of it at best.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://surfacedfox.github.io/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://surfacedfox.github.io/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://surfacedfox.github.io/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://surfacedfox.github.io/about/</guid>
+      <description>Hi! I&amp;rsquo;m @surfacedfox, and I&amp;rsquo;m a creator!
+Inspired to make games since I was 11, over the years I&amp;rsquo;ve picked up a multitude of skills in service of that goal. Be it designing and developing complex systems, or setting up a pipeline to facilitate a smooth development process, I can bridge the gap between the worlds of art and engineering. I believe interactivity is the future of storytelling, and that the best way to predict the future is to make it happen- so here we are!</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://surfacedfox.github.io/contact/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://surfacedfox.github.io/contact/</guid>
+      <description>I generally respond in 2-12 hours. Please contact me via: E-Mail:
+surfacedfox@gmail.com Discord:
+fallfox#5967 Twitter:
+@surfacedfox LinkedIn:
+surfacedfox Telegram:
+surfacedfox Session: 051799ff43eabe895dd9c882757ea6d2f1b9d20bcbf7a886886d1e03c825560562 GitHub:
+surfacedfox </description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://surfacedfox.github.io/projects/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://surfacedfox.github.io/projects/</guid>
+      <description>Here are some projects I&amp;rsquo;m proud of! Technical Assignment for Hopscotch Games: Video of the technical assessment project I worked on as a part of my job application at Hopscotch Games. Built according to this spec sheet, I&amp;rsquo;ve been told that my project far exceeded their expectations. Render Pipeline Conversion: I converted the Unity HDRP sample project to URP, gaining a massive performance boost for minimal fidelity differences! Wizards&amp;rsquo; Folly: A game I made with Team Firedreamer for GMTK Jam 2022!</description>
+    </item>
+    
+  </channel>
+</rss>
