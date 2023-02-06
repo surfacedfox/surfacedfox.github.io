@@ -1,6 +1,6 @@
 +++
 author = "surfacedfox"
-title = "Random Rumination 1"
+title = "Random Rumination 2"
 date = "2023-01-22"
 description = "Childhood"
 tags = [
