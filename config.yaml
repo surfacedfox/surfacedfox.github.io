@@ -1,0 +1,4 @@
+baseURL: https://surfacedfox.net/ 
+title: Surfacedfox's Pages
+defaultContentLanguage: 'en'
+theme: hugo-theme-console

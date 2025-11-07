@@ -1,0 +1,28 @@
+baseurl = "https://surfacedfox.net"
+title = "surfacedfox.net"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast" 
+
+  [[params.navlinks]]
+  name = "About/"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "Projects/"
+  url = "projects/"
+  
+  [[params.navlinks]]
+  name = "Posts/"
+  url = "posts/"
+  
+  [[params.navlinks]]
+  name = "Contact/"
+  url = "contact/"
