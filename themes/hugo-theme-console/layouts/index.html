@@ -1,27 +1,30 @@
 {{ define "main" }}
-
-<h1>About</h1>
-
-<p>
-Hi there! (more info/intro line goes here)  <a href="about/">(more)</a>
-</p>
-<br/>
-
+<h1>Hi, I'm Ashe (@surfacedfox)!</h1>
+<img src="header.jpg" alt="" class="img-responsive"><br>
+I'm a game designer and programmer! I also solve IRL problems using game tech at <a href="https://axomem.io">AxoMem</a>. 
+    I love games, and I love everything about the art and craft of making them!<br><br>
+    My skills and experience are the glue which hold projects together. I program systems, design workflows and art pipelines. While my
+deep expertise lies in game design and programming to support said design, I am also a broad-range generalist with skills in shader development, audio design,
+kitbashing, level design and art asset creation.
+<br><br>
+This site exists as an archive for projects which I can't necessarily release the source code for, but want to showcase nonetheless. It also hosts the authoritative,
+'canon' versions of my various opinions which I think are worth sharing, or for some game design or development quick-tips and minor learnings which I might want to refer back
+to, down the line.
+<br>
 <h1>Project gallery</h1>
+<h2><i>Click on the thumbnails for a technical breakdown!</i></h2>
 <div class="image-grid">
     {{ with .Site.GetPage "/projects" }}
-        {{ range first 3 (sort .Pages "Date" "desc")}}
+        {{ range first 4 (sort .Pages "Date" "desc")}}
             <a href="{{ .Permalink }}" title="{{ .Title }}">
             {{ $image := .Page.Resources.GetMatch .Params.image }}
             {{ with $image }}
-                {{ $thumb := .Resize "400x" }}
-                <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
+                <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}" class="img-responsive" caption="{{ .Title }}" style="border:2px solid rgb(64, 64, 64)">
             {{end}}
             </a>
         {{ end }}
     {{ end }}
 </div>
-
 <h1>Latest posts</h1>
 <div class="posts-list">
 {{ with .Site.GetPage "/posts" }}
