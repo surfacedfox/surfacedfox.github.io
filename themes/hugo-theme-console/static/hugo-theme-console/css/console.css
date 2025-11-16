@@ -30,6 +30,15 @@
     text-rendering: optimizeLegibility;
 }
 
+html {
+    overflow:   scroll;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent; /* make scrollbar transparent */
+  }
+
 :root {
     --global-font-size: 16px;
     --global-font-color: #444;
@@ -46,7 +55,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-	--background-color: #222225;
+	--background-color: #111111;
 	--page-width: 60em;
 	--font-color: #e8e9ed;
 	--invert-font-color: #222225;
@@ -213,7 +222,7 @@ figure {
     grid-template-rows: auto;
     grid-template-columns: repeat(
         auto-fit,
-        minmax(calc(var(--page-width) / 4), 1fr)
+        minmax(calc(var(--page-width) / 3), 1fr)
     );
 }
 
@@ -317,4 +326,9 @@ figure {
         padding-top: 5px;
 
     }
+}
+
+body {
+    visibility: visible;
+    opacity: 1;
 }
