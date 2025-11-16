@@ -7,7 +7,7 @@ A post-jam reflection of my Ludum Dare 58 entry.<!--more-->
 ***
 *This is the project's post-jam reflection. A technical overview of The Skitter Kit is available in the projects section.*
 ![Skitter](skitter.webp " ")
-[**The Skitter Kit** was my return to game jams]((https://ldjam.com/events/ludum-dare/58/ld58-2)) after almost 7 years. I've had a few side projects, on-and-off, but nothing particularly _complete_ per se, and this was my attempt to fix just that. Ludum Dare was [my first jam](https://ldjam.com/events/ludum-dare/41/spatialsurf) from when I first got into gamedev seriously, so it felt apt to come back to it after all this time. 
+[The Skitter Kit was my return to game jams](https://ldjam.com/events/ludum-dare/58/ld58-2) after almost 7 years. I've had a few side projects, on-and-off, but nothing particularly _complete_ per se, and this was my attempt to fix just that. Ludum Dare was [my first jam](https://ldjam.com/events/ludum-dare/41/spatialsurf) from when I first got into gamedev seriously, so it felt apt to come back to it after all this time. 
 
 The wildest thing about this jam was that I had about 30 or so ideas, but turning them into something that’s possibly fun, unique and with good push/pull and risk/reward was a bit more complicated than I’d thought.
 
