@@ -11,13 +11,14 @@ languageCode = "en-us"
   # To disable animations, please remove or comment animationStyle parameter
   animateStyle = "animated zoomIn fast" 
 
-  [[params.navlinks]]
-  name = "󱀈 Posts/"
-  url = "posts/"  
-  
+
   [[params.navlinks]]
   name = " Projects/"
   url = "projects/"
+  
+  [[params.navlinks]]
+  name = "󱀈 Posts/"
+  url = "posts/"  
   
 
   [[params.navlinks]]

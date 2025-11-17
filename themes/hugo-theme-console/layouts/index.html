@@ -11,7 +11,7 @@ This site exists as an archive for projects which I can't necessarily release th
 'canon' versions of my various opinions which I think are worth sharing, or for some game design or development quick-tips and minor learnings which I might want to refer back
 to, down the line.
 <br>
-<h1>Project gallery</h1>
+<h1>Project Gallery</h1>
 <h2><i>Click on the thumbnails for a technical breakdown!</i></h2>
 <div class="image-grid">
     {{ with .Site.GetPage "/projects" }}
@@ -19,13 +19,13 @@ to, down the line.
             <a href="{{ .Permalink }}" title="{{ .Title }}">
             {{ $image := .Page.Resources.GetMatch .Params.image }}
             {{ with $image }}
-                <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}" class="img-responsive" caption="{{ .Title }}" style="border:2px solid rgb(64, 64, 64)">
+                <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}" class="img-responsive" caption="{{ .Title }}" style="border:1px solid rgb(64, 64, 64)">
             {{end}}
             </a>
         {{ end }}
     {{ end }}
 </div>
-<h1>Latest posts</h1>
+<h1>Latest Posts</h1>
 <div class="posts-list">
 {{ with .Site.GetPage "/posts" }}
     {{ range first 3 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
