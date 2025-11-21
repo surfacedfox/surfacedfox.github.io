@@ -1,18 +1,17 @@
 {{ define "main" }}
 <h1>Hi, I'm Ashe (@surfacedfox)!</h1>
-<img src="header.webp" alt="" class="img-responsive"><br>
-I'm a game designer and programmer! I also solve IRL problems using game tech at <a href="https://axomem.io">AxoMem</a>. 
-    I love games, and I love everything about the art and craft of making them!<br><br>
-    My skills and experience are the glue which hold projects together. I program systems, design workflows and art pipelines. While my
-deep expertise lies in game design and programming to support said design, I am also a broad-range generalist with skills in shader development, audio design,
-kitbashing, level design and art asset creation.
-<br><br>
-This site exists as an archive for projects which I can't necessarily release the source code for, but want to showcase nonetheless. It also hosts the authoritative,
-'canon' versions of my various opinions which I think are worth sharing, or for some game design or development quick-tips and minor learnings which I might want to refer back
-to, down the line.
-<br>
+<img src="header.webp" alt="" class="img-responsive">
+<p>I'm a game developer from India! I also solve IRL problems using game tech at <a href="https://axomem.io">AxoMem</a>. I love games, and I love making them!</p>
+<p>My skills and experience are the glue which hold projects together. I've been working in the industry for about 4 years now, and my deep expertise primarily lies in 
+programming. However, my appreciation for the craft of making games has led me to develop skills as a broad-range generalist to *really* understand the roles my
+teammates fulfil, and to figure out how I can collaborate with them better. I've also participated in game jams before, which has helped me diversify my skillset 
+to include shader development, kitbashing, and working within art pipeline constraints and with audio middleware. 
+This T-shaped skillset is what I bring to the teams I work in and with, and am really proud of. :)</p>
+<p>
+This site exists as an archive for projects I have worked on, and am working on. It also hosts some of my opinions which I think are 
+worth sharing, and to archive some game design or development quick-tips and minor learnings which I might want to refer back to, down the line.</p>
 <h1>Project Gallery</h1>
-<h2><i>Click on the thumbnails for a technical breakdown!</i></h2>
+<h2><i>Click on the thumbnails for a mo</i></h2>
 <div class="image-grid">
     {{ with .Site.GetPage "/projects" }}
         {{ range first 4 (sort .Pages "Date" "desc")}}

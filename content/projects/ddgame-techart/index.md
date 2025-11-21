@@ -5,12 +5,13 @@ title = "'DDGame' - Technical Art Showcase"
 type = "gallery"
 +++
 # Project Stack
-**- Engine:** 󰦱 Unreal  
-**- Language(s):**  C++  
-**- Shaders and Visual:** 󰦱 Unreal Material Editor  
-**- Pipeline:** 󰊢 Diversion  
-**- DCC:**  Blender, 󰁨 Affinity  
-**- Middleware:** n/a  
+**- Engine:** {{<badge label="Unreal" color="black" logo="unreal engine" target="_blank">}}  
+**- Languages:** n/a  
+**- Shaders and Visual:** {{<badge label="Material Editor" color="grey" logo="unreal engine" logoColor="white" target="_blank">}}   
+**- Pipeline:** {{<badge label="Diversion" color="blue" logo="diversion" logoColor="white" target="_blank">}}  
+**- DCC:** {{<badge label="Blender" color="orange" logo="blender" logoColor="white" target="_blank" checkAlt="true">}}
+{{<badge label="Affinity" color="green" logo="affinitystudio" logoColor="white" target="_blank" checkAlt="true">}}  
+**- Middleware:** n/a    
 **- Skills Utilized:** Technical art, project management, art pipeline design, texturing, modelling.  
 
 'DDGame' is a long term, high production value game project that I've been working on for a good bit. Using the powerful Unreal Engine has allowed us to
