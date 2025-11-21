@@ -5,28 +5,11 @@
     font-weight: 400;
     text-rendering: optimizeLegibility;
 }
-
 @font-face {
-    font-family: "Overpass Nerd Font";
-    src: url("../font/OverpassNerdFont-Italic.otf") format("opentype");
-    font-style: italic;
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
-}
-
-@font-face {
-    font-family: "Overpass Nerd Font";
-    src: url("../font/OverpassNerdFont-Bold.otf") format("opentype");
+    font-family: "Roboto Mono";
+    src: url("../font/RobotoMono-Regular.ttf") format("truetype");
     font-style: normal;
-    font-weight: 700;
-    text-rendering: optimizeLegibility;
-}
-
-@font-face {
-    font-family: "Overpass Nerd Font";
-    src: url("../font/OverpassNerdFont-BoldItalic.otf") format("opentype");
-    font-style: italic;
-    font-weight: 700;
+    font-weight: 400;
     text-rendering: optimizeLegibility;
 }
 
@@ -42,7 +25,7 @@ html {
 :root {
     --global-font-size: 16px;
     --global-font-color: #444;
-    --mono-font-stack: Overpass Nerd Font, Roboto Mono, Menlo, Monaco, Lucida Console,
+    --mono-font-stack: Roboto Mono, Menlo, Monaco, Lucida Console,
         Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
         Courier New, monospace, serif;
     --font-stack: Overpass Nerd Font, Menlo, Monaco, Lucida Console, Liberation Mono,
@@ -56,7 +39,7 @@ html {
 @media (prefers-color-scheme: dark) {
     :root {
 	--background-color: #111111;
-	--page-width: 60em;
+	--page-width: 65em;
 	--font-color: #e8e9ed;
 	--invert-font-color: #222225;
 	--secondary-color: #a3abba;
@@ -132,10 +115,6 @@ h6,
 .h6 {
     font-family: var(--font-stack);
     clear: both;
-}
-
-h1 {
-    margin-bottom: 150px;
 }
 
 .content-column-content p,
@@ -237,8 +216,12 @@ figure {
 }
 
 .gallery-image {
+    display: block;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
 }
 
 .posts-list {
@@ -251,7 +234,7 @@ figure {
 .post h2 {
     padding-top: 0;
     margin: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 
 .posts-list .date {
@@ -305,6 +288,10 @@ figure {
         top: 0;
     }
 
+    post
+    {
+        margin-bottom: 5px;
+    }
     .post h1,
     .post h2 {
         padding-top: 0;
