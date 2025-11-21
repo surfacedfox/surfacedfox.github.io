@@ -2,4 +2,4 @@
 title = "Project Gallery"
 type = "gallery"
 +++
-## *Click on the thumbnails for a technical breakdown!*
+## *Click on the thumbnails for more details about each project!*
