@@ -201,7 +201,7 @@ figure {
     grid-template-rows: auto;
     grid-template-columns: repeat(
         auto-fit,
-        minmax(calc(var(--page-width) / 3), 1fr)
+        minmax(calc(var(--page-width) / 4), 1fr)
     );
 }
 
