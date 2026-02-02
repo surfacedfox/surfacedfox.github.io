@@ -32,3 +32,6 @@ languageCode = "en-us"
   [[params.navlinks]]
   name = "󰑫"
   url = "index.xml"
+
+[[module.imports]]
+path = "mermaid"
