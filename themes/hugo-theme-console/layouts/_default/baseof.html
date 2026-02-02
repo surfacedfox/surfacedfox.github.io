@@ -59,5 +59,17 @@
         {{ end }}
         {{ partial "footer.html" . }}
     </div>
+    {{ if .Store.Get "hasMermaid" }}
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({ startOnLoad: true, theme:'dark' });
+      mermaid.registerIconPacks([
+      {
+        name: 'tabler',
+        loader: () => fetch('https://unpkg.com/@iconify-json/tabler@1/icons.json').then((res) => res.json()),
+      },
+      ]);
+    </script>
+{{ end }}
   </body>
 </html>
