@@ -4,7 +4,7 @@ date = "2026-07-24"
 +++
 Programming and coding suffer from a culture that devalues the effort involved in them.<!--more-->
 ***
-wip stream of consciousness/copies from rants to friends, i will refine later.
+wip stream of consciousness/copies from rants to friends, i will refine later (maybe, maybe not).
 
 I know impostor syndrome is real, hell, I feel it myself but I can't help but feel that there's a lot of self-deprecation in the programming community, especially from newbies which causes them to believe jank is the default and alright (myself included when I was starting out). Part of it is funny (haha, load-bearing tomato) but I swear that mindset feels deeply harmful. There's a difference between someone experienced saying "oh that one was a scuffed solution, but it works" and a beginner to parrot that while not giving themselves the space to grow and really understand where something scuffed is alright or if something robust is needed. 
 
